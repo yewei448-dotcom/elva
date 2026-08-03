@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="锦官行旅是一家成都旅行工作室，提供古蜀人文、烟火美食、山水熊猫三条深度路线与私人定制旅游服务。"
+    />
+    <title>锦官行旅｜成都旅行工作室</title>
+    <link rel="preconnect" href="https://upload.wikimedia.org" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="锦官行旅首页">
+          <span class="brand-seal">锦</span>
+          <span>
+            <strong>锦官行旅</strong>
+            <small>Chengdu Slow Travel Studio</small>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">打开导航</span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#routes">三条路线</a>
+          <a href="#photo-map">真实照片地图</a>
+          <a href="#services">旅游服务</a>
+          <a href="#booking">预约咨询</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-ink" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">成都本地旅行工作室 · 小团深度定制</p>
+            <h1>在锦官城，走一程有烟火气的古风慢旅。</h1>
+            <p class="hero-text">
+              我们用真实照片做路线地图，以古蜀文化、美食街巷与山水熊猫串起成都三条精选路线。
+              适合家庭、情侣、摄影爱好者与第一次来蓉的朋友。
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#routes">查看三条路线</a>
+              <a class="btn btn-ghost" href="#booking">定制我的行程</a>
+            </div>
+            <dl class="hero-stats" aria-label="服务亮点">
+              <div>
+                <dt>3</dt>
+                <dd>条成都主题路线</dd>
+              </div>
+              <div>
+                <dt>6-8</dt>
+                <dd>人成团更舒适</dd>
+              </div>
+              <div>
+                <dt>24h</dt>
+                <dd>行前管家响应</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-card" aria-label="路线速览">
+            <div class="scroll-card">
+              <span class="scroll-knot" aria-hidden="true"></span>
+              <p>今日推荐</p>
+              <h2>古蜀人文一日</h2>
+              <ol>
+                <li>武侯祠听三国旧事</li>
+                <li>锦里古街拍灯影</li>
+                <li>宽窄巷子访老院落</li>
+                <li>人民公园喝盖碗茶</li>
+              </ol>
+              <a href="#booking">预约讲解员随行</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div class="container intro-grid">
+          <div>
+            <p class="section-kicker">为什么选择我们</p>
+            <h2>不是打卡清单，而是一卷成都生活志。</h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              锦官行旅由成都本地策划师、持证讲解员、旅拍摄影师组成。我们把城市路线拆成可漫步、
+              可品尝、可拍摄、可讲述的片段，避开机械赶点，保留茶馆、巷口、夜市与山风。
+            </p>
+            <div class="feature-strip" aria-label="服务承诺">
+              <span>本地向导</span>
+              <span>真实照片地图</span>
+              <span>古风旅拍</span>
+              <span>小团慢游</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section routes" id="routes">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Route Scrolls</p>
+            <h2>成都三条精选路线</h2>
+            <p>点击路线卷轴，查看节奏、适合人群、行程节点与可加购体验。</p>
+          </div>
+
+          <div class="route-tabs" role="tablist" aria-label="成都路线切换">
+            <button class="route-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="route-heritage" id="tab-heritage" data-route="heritage">
+              古蜀人文线
+            </button>
+            <button class="route-tab" type="button" role="tab" aria-selected="false" aria-controls="route-food" id="tab-food" data-route="food">
+              烟火美食线
+            </button>
+            <button class="route-tab" type="button" role="tab" aria-selected="false" aria-controls="route-nature" id="tab-nature" data-route="nature">
+              山水熊猫线
+            </button>
+          </div>
+
+          <article class="route-panel is-active" id="route-heritage" role="tabpanel" aria-labelledby="tab-heritage" data-panel="heritage">
+            <div class="route-media">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg/1280px-Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg"
+                alt="成都锦里古街真实照片"
+              />
+              <span>锦里古街 · Wikimedia Commons / Daderot</span>
+            </div>
+            <div class="route-content">
+              <p class="route-label">Route 01 · 一日慢游</p>
+              <h3>古蜀人文线：武侯祠、锦里、宽窄巷子、人民公园</h3>
+              <p>
+                从三国遗韵走到清代院落，再坐进百年茶馆。适合第一次来成都、亲子研学、
+                古风摄影与喜欢历史故事的旅行者。
+              </p>
+              <ul class="timeline">
+                <li><strong>09:00</strong><span>武侯祠深度讲解，理解蜀汉人物关系。</span></li>
+                <li><strong>11:00</strong><span>锦里古街取景，灯笼、木檐、石板路旅拍。</span></li>
+                <li><strong>14:00</strong><span>宽窄巷子院落漫步，品尝小吃与文创。</span></li>
+                <li><strong>16:30</strong><span>人民公园茶馆，体验盖碗茶与采耳文化。</span></li>
+              </ul>
+              <div class="route-meta">
+                <span>适合：亲子 / 文化 / 摄影</span>
+                <span>强度：轻松步行</span>
+                <span>推荐季节：全年</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="route-panel" id="route-food" role="tabpanel" aria-labelledby="tab-food" data-panel="food" hidden>
+            <div class="route-media">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Street_scene_-_Kuanzhai_Alleys_-_Chengdu%2C_China_-_DSC05311.jpg/1280px-Street_scene_-_Kuanzhai_Alleys_-_Chengdu%2C_China_-_DSC05311.jpg"
+                alt="成都宽窄巷子街景真实照片"
+              />
+              <span>宽窄巷子 · Wikimedia Commons / Daderot</span>
+            </div>
+            <div class="route-content">
+              <p class="route-label">Route 02 · 半日到夜游</p>
+              <h3>烟火美食线：茶馆、小吃街、火锅、玉林夜色</h3>
+              <p>
+                以本地人爱走的街区为骨架，从盖碗茶、钟水饺、甜水面到热辣火锅，
+                最后用玉林小酒馆和夜市收尾。
+              </p>
+              <ul class="timeline">
+                <li><strong>14:30</strong><span>人民公园茶馆开场，学习成都慢生活礼仪。</span></li>
+                <li><strong>16:00</strong><span>奎星楼街小吃试味，按口味避雷点单。</span></li>
+                <li><strong>18:00</strong><span>老火锅或川菜馆预订，含辣度沟通。</span></li>
+                <li><strong>20:30</strong><span>玉林街区夜游，听民谣、逛社区小店。</span></li>
+              </ul>
+              <div class="route-meta">
+                <span>适合：吃货 / 朋友 / 夜游</span>
+                <span>强度：轻松步行</span>
+                <span>推荐季节：春秋夜晚</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="route-panel" id="route-nature" role="tabpanel" aria-labelledby="tab-nature" data-panel="nature" hidden>
+            <div class="route-media">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg/1280px-Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg"
+                alt="成都大熊猫繁育研究基地真实照片"
+              />
+              <span>熊猫基地 · Wikimedia Commons / Chester Ho</span>
+            </div>
+            <div class="route-content">
+              <p class="route-label">Route 03 · 一至二日</p>
+              <h3>山水熊猫线：熊猫基地、都江堰、青城山</h3>
+              <p>
+                上午看熊猫最活跃的时段，午后探访两千年水利工程；若延展为两日，
+                可在青城山听道观钟声、住山脚温泉民宿。
+              </p>
+              <ul class="timeline">
+                <li><strong>07:30</strong><span>熊猫基地错峰入园，预留幼年熊猫区拍摄时间。</span></li>
+                <li><strong>12:30</strong><span>都江堰河畔午餐，讲解鱼嘴、飞沙堰、宝瓶口。</span></li>
+                <li><strong>15:30</strong><span>南桥与古城漫步，拍水雾与廊桥夜景。</span></li>
+                <li><strong>次日</strong><span>可加青城山轻徒步、道观茶席或温泉休整。</span></li>
+              </ul>
+              <div class="route-meta">
+                <span>适合：家庭 / 自然 / 轻户外</span>
+                <span>强度：中等</span>
+                <span>推荐季节：春夏秋</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section photo-map-section" id="photo-map">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Photo Map</p>
+            <h2>以真实照片为地图</h2>
+            <p>
+              我们用沿途真实照片替代冰冷坐标：每一张图都是一个集合点、取景点或休息点。
+              点击照片钉查看路线归属与旅行提示。
+            </p>
+          </div>
+
+          <div class="photo-map" aria-label="成都真实照片路线地图">
+            <svg class="route-lines" viewBox="0 0 100 62" aria-hidden="true" preserveAspectRatio="none">
+              <path d="M12 43 C25 20, 38 20, 49 34 S76 50, 90 18" />
+              <path d="M17 16 C29 38, 48 42, 61 22 S79 12, 88 39" />
+            </svg>
+            <button class="photo-pin pin-heritage" type="button" data-title="锦里古街" data-route="古蜀人文线" data-tip="夜色灯笼最有古风氛围，适合汉服与亲子合影。">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg/1280px-Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg"
+                alt="锦里古街照片地图钉"
+              />
+              <span>锦里</span>
+            </button>
+            <button class="photo-pin pin-alley" type="button" data-title="宽窄巷子" data-route="古蜀人文线 / 烟火美食线" data-tip="上午游客较少，适合拍院门、竹影与老成都街景。">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Street_scene_-_Kuanzhai_Alleys_-_Chengdu%2C_China_-_DSC05311.jpg/1280px-Street_scene_-_Kuanzhai_Alleys_-_Chengdu%2C_China_-_DSC05311.jpg"
+                alt="宽窄巷子照片地图钉"
+              />
+              <span>宽窄</span>
+            </button>
+            <button class="photo-pin pin-tea" type="button" data-title="人民公园茶馆" data-route="古蜀人文线 / 烟火美食线" data-tip="盖碗茶、竹椅、采耳是成都慢生活的经典镜头。">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg/1280px-Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg"
+                alt="人民公园茶馆照片地图钉"
+              />
+              <span>茶馆</span>
+            </button>
+            <button class="photo-pin pin-panda" type="button" data-title="成都大熊猫基地" data-route="山水熊猫线" data-tip="建议早入园，熊猫进食和活动状态更好。">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg/1280px-Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg"
+                alt="成都大熊猫基地照片地图钉"
+              />
+              <span>熊猫</span>
+            </button>
+            <button class="photo-pin pin-baihua" type="button" data-title="百花潭茶院" data-route="烟火美食线延展" data-tip="如果想避开热门茶馆，可改走百花潭公园茶院。">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Teahouse_in_Baihuatan_Park_-_Chengdu%2C_China_-_DSC03846.JPG/1280px-Teahouse_in_Baihuatan_Park_-_Chengdu%2C_China_-_DSC03846.JPG"
+                alt="百花潭茶院照片地图钉"
+              />
+              <span>百花潭</span>
+            </button>
+          </div>
+
+          <div class="map-card" data-map-card aria-live="polite">
+            <p class="route-label">点击照片钉</p>
+            <h3>选择一个真实地点</h3>
+            <p>这里会显示路线归属、取景建议与行程提示。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Services</p>
+            <h2>旅行服务</h2>
+            <p>从路线策划到落地陪同，按你的出行方式组合。</p>
+          </div>
+
+          <div class="service-filters" aria-label="服务筛选">
+            <button class="service-filter is-active" type="button" data-filter="all">全部</button>
+            <button class="service-filter" type="button" data-filter="family">亲子家庭</button>
+            <button class="service-filter" type="button" data-filter="photo">旅拍摄影</button>
+            <button class="service-filter" type="button" data-filter="custom">私人定制</button>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card" data-category="custom family">
+              <span class="service-icon">策</span>
+              <h3>路线策划</h3>
+              <p>根据航班、酒店、体力、饮食禁忌和兴趣点，定制 1-5 日成都行程。</p>
+            </article>
+            <article class="service-card" data-category="custom">
+              <span class="service-icon">导</span>
+              <h3>本地向导陪同</h3>
+              <p>中文 / 英文讲解员可选，负责讲解、动线、排队策略与现场沟通。</p>
+            </article>
+            <article class="service-card" data-category="photo">
+              <span class="service-icon">影</span>
+              <h3>古风旅拍</h3>
+              <p>汉服妆造建议、机位规划、半日跟拍与精选修图，适配锦里与茶馆场景。</p>
+            </article>
+            <article class="service-card" data-category="family custom">
+              <span class="service-icon">车</span>
+              <h3>舒适用车</h3>
+              <p>市区商务车、都江堰青城山往返、儿童座椅和老人友好节奏安排。</p>
+            </article>
+            <article class="service-card" data-category="family">
+              <span class="service-icon">学</span>
+              <h3>亲子研学包</h3>
+              <p>三国故事卡、熊猫观察任务、茶文化体验，让孩子边玩边学。</p>
+            </article>
+            <article class="service-card" data-category="custom photo">
+              <span class="service-icon">票</span>
+              <h3>预约代订</h3>
+              <p>门票、演出、茶席、火锅与民宿建议；热门时段提前锁位。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Moments</p>
+            <h2 id="gallery-title">成都片刻</h2>
+            <p>点击照片预览，把路线想象成一组有温度的画面。</p>
+          </div>
+          <div class="gallery-grid">
+            <button class="gallery-item" type="button" data-full="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg/1280px-Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg" data-caption="锦里古街灯影">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg/1280px-Jinli_Street_-_Chengdu%2C_China_-_DSC05399.jpg" alt="锦里古街灯影" />
+            </button>
+            <button class="gallery-item" type="button" data-full="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg/1280px-Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg" data-caption="人民公园茶馆">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg/1280px-Teahouse_in_Peoples_Park_-_Chengdu%2C_China_-_DSC05371.jpg" alt="人民公园茶馆" />
+            </button>
+            <button class="gallery-item" type="button" data-full="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg/1280px-Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg" data-caption="成都大熊猫基地">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg/1280px-Chengdu_Panda_Breeding_Research_Center%2C_Chengdu%2C_China_%28Unsplash%29.jpg" alt="成都大熊猫基地" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section booking" id="booking">
+        <div class="container booking-grid">
+          <div>
+            <p class="section-kicker">Book a Scroll</p>
+            <h2>写下你的成都行旅笺</h2>
+            <p>
+              提交后页面会生成咨询摘要，方便你复制给工作室微信或邮件。真实上线时可接入表单服务、
+              CRM 或企业微信。
+            </p>
+            <div class="contact-card">
+              <strong>锦官行旅工作室</strong>
+              <span>微信：JinguanTrip</span>
+              <span>邮箱：hello@jinguan-trip.example</span>
+              <span>服务范围：成都主城 / 都江堰 / 青城山 / 周边定制</span>
+            </div>
+          </div>
+
+          <form class="booking-form" data-booking-form novalidate>
+            <label>
+              称呼
+              <input name="name" type="text" placeholder="例如：林女士" autocomplete="name" required />
+              <small class="error"></small>
+            </label>
+            <label>
+              联系方式
+              <input name="contact" type="text" placeholder="微信 / 手机 / 邮箱" autocomplete="email" required />
+              <small class="error"></small>
+            </label>
+            <label>
+              想走的路线
+              <select name="route" required>
+                <option value="">请选择</option>
+                <option>古蜀人文线</option>
+                <option>烟火美食线</option>
+                <option>山水熊猫线</option>
+                <option>需要私人定制</option>
+              </select>
+              <small class="error"></small>
+            </label>
+            <div class="form-row">
+              <label>
+                出行日期
+                <input name="date" type="date" required />
+                <small class="error"></small>
+              </label>
+              <label>
+                人数
+                <input name="guests" type="number" min="1" max="18" value="2" required />
+                <small class="error"></small>
+              </label>
+            </div>
+            <label>
+              旅行偏好
+              <textarea name="message" rows="4" placeholder="例如：想多拍古风照片、不能吃太辣、带一位老人"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">生成咨询摘要</button>
+            <output class="form-result" data-form-result></output>
+          </form>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="container faq-grid">
+          <div>
+            <p class="section-kicker">FAQ</p>
+            <h2>常见问题</h2>
+          </div>
+          <div class="accordion" data-accordion>
+            <button type="button" aria-expanded="false">
+              路线可以临时调整吗？
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>可以。当天会根据天气、排队、人流和体力做微调；跨城市或跨日期调整建议至少提前一天确认。</p>
+            </div>
+            <button type="button" aria-expanded="false">
+              古风旅拍包含服装吗？
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>默认提供妆造与服装店建议，可按预算代约；摄影、精修、短视频可独立加购。</p>
+            </div>
+            <button type="button" aria-expanded="false">
+              真实照片地图能替换成自己的照片吗？
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>可以。上线后可把每个路线节点替换为工作室实拍图，并保留照片钉与提示交互。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>锦官行旅</strong>
+          <p>以一盏茶的速度，看见成都。</p>
+        </div>
+        <div class="photo-credit">
+          <span>照片来源：Wikimedia Commons（Daderot、Chester Ho 等），用于演示真实照片地图。</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sticky-actions" aria-label="快捷操作">
+      <a href="#booking">预约</a>
+      <a href="#photo-map">看地图</a>
+    </div>
+
+    <dialog class="lightbox" data-lightbox>
+      <button type="button" class="lightbox-close" data-lightbox-close aria-label="关闭预览">×</button>
+      <img src="" alt="" data-lightbox-image />
+      <p data-lightbox-caption></p>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
